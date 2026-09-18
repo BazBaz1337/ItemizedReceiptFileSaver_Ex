@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ce27d1-e05a-4e51-9d52-04abe3eb179c" name="Changes" comment="update 0.3:&#10;&#10;re-code the get_positive_float() function" />
+    <list default="true" id="39ce27d1-e05a-4e51-9d52-04abe3eb179c" name="Changes" comment="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +125,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789752215680</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions">
+      <option name="closed" value="true" />
+      <created>1789752668020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789752668020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions">
+      <option name="closed" value="true" />
+      <created>1789753070834</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789753070834</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions">
+      <option name="closed" value="true" />
+      <created>1789753103303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789753103303</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,9 +159,12 @@
     <MESSAGE value="Created project file" />
     <MESSAGE value="update 0.4:&#10;&#10;bin the whole name_list list,&#10;&#10;created a main() and spacing out each layer of functions" />
     <MESSAGE value="update 0.3:&#10;&#10;re-code the get_positive_float() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 0.3:&#10;&#10;re-code the get_positive_float() function" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="update 0.4.1:&#10;&#10;re-code of participant directory called nameList using a List array to store 1 or more names, test code #print(nameList)" />
+    <MESSAGE value="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 0.4:&#10;&#10;scrape entire name_list List&#10;Created a main() function that will have the List , Dictionary and Rate functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ItemizedReceiptFileSaver_Ex$main.coverage" NAME="main Coverage Results" MODIFIED="1789750445499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ItemizedReceiptFileSaver_Ex$main.coverage" NAME="main Coverage Results" MODIFIED="1789752929636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
