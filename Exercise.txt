@@ -1,0 +1,76 @@
+Exercise 2
+
+Itemized Receipt & File Saver
+
+Core concepts Tested : Lists, Dictionaries, Functions, Robust Error Handling (try/except),
+String Manipulation, File I/O (with open).
+
+Scenario :
+You are building an itemized restaurant bill solver. Instead of splitting a bill equally,
+this tool tracks individual menu items, calculates sub-totals per person, adds proportional tax and tip,
+and exports a clean receipt to a .txt file.
+
+Requirements :
+    Input Validation :
+        Create a helper function get_positive_float(prompt) that prompts the user for numbers and handles
+        ValueError exceptions so the program never crashes on invalid inputs
+        (e.g., typing "fifteen" instead of 15).
+
+    Data Structures(List and Dictionaries):
+        Prompt for participant names separated by commas
+        (e.g., "Alice, Bob, Charlie"). Clean extra whitespace and store them in a list.
+        Collect ordered items using a loop. Store each item as a dictionary:
+        {"name": str, "price": float}.
+
+    Proportional Calculations:
+        Ask for the tax percentage and tip percentage
+        Calculate each person's base share of the bill, then apply tax and tip proportionally
+        based on their individual spending ratio:
+
+            Individual Total = Subtotal + (Subtotal * tax/100) + (Subtotal * tip/100)
+
+    File Output(open & Write):
+        Write a function save_receipt(person_totals, filename="receipt.txt") that appends the calculated
+        breakdown and grand total into a local text file.
+
+Expected Terminal Output :
+
+=== Level 2: Itemized Receipt Splitter ===
+
+Enter participant names (separated by commas): Alice, Bob, Charlie
+
+Enter item name (or 'done' to finish): Burger
+Enter price for 'Burger': $15.00
+
+Enter item name (or 'done' to finish): Salad
+Enter price for 'Salad': $10.00
+
+Enter item name (or 'done' to finish): Steak
+Enter price for 'Steak': $25.00
+
+Enter item name (or 'done' to finish): done
+
+--- Rates ---
+Enter tax rate (%): 10
+Enter tip rate (%): 15
+
+--- Breakdown ---
+Alice owes: $18.75
+Bob owes: $12.50
+Charlie owes: $31.25
+-----------------
+Grand Total: $62.50
+
+[Success] Receipt saved to receipt.txt!
+
+Expected receipt.txt Output :
+
+==============================
+       RECEIPT SUMMARY
+==============================
+Alice: $18.75
+Bob: $12.50
+Charlie: $31.25
+------------------------------
+Grand Total: $62.50
+==============================
