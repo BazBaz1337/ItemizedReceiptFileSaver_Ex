@@ -1,10 +1,14 @@
 #Input validation function
 #only takes integer and will print a ValueError exception if prompt is not an integer
 def get_positive_float(prompt):
-    try:
-        prompt = int(prompt)
-    except ValueError:
-        print(f"Error ! {prompt} is not a number")
+    while True:
+        try:
+            value = float(input(prompt))
+            if value >= 0:
+                return value
+            print("Please enter a positive number.")
+        except ValueError:
+            print("Please enter a numeric value.")
 
 #main run
 while True:
