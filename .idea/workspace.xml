@@ -109,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789751529551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update 0.3:&#10;&#10;re-code the get_positive_float() function">
+      <option name="closed" value="true" />
+      <created>1789752189576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789752189576</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update 0.3:&#10;&#10;re-code the get_positive_float() function">
+      <option name="closed" value="true" />
+      <created>1789752215680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789752215680</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created project file" />
+    <MESSAGE value="update 0.4:&#10;&#10;bin the whole name_list list,&#10;&#10;created a main() and spacing out each layer of functions" />
     <MESSAGE value="update 0.3:&#10;&#10;re-code the get_positive_float() function" />
     <option name="LAST_COMMIT_MESSAGE" value="update 0.3:&#10;&#10;re-code the get_positive_float() function" />
   </component>
