@@ -31,8 +31,11 @@ def main():
     if not orderedItems:
         print("no items entered. Exiting.")
         return
+    #print(orderedItems) test orderedItems dictionary array
     #Get tax% and tip%
-
+    print("\n--- Rates ---")
+    tax = get_positive_float("Please enter your tax (%) :")
+    tip = get_positive_float("Please enter your tip (%) :")
 
 if __name__ == "__main__":
     main()
