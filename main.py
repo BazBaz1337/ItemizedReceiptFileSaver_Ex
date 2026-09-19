@@ -21,7 +21,16 @@ def main():
         return
     #print(nameList) test nameList list array
     #Get items and prices of items and store in a dictionary orderedItems
-
+    orderedItems = []
+    while True:
+        item = input("\nEnter item name (or 'done' to finish) :")
+        if item.lower() == 'done':
+            break
+        price = get_positive_float(f"Please enter price of item {item} : $")
+        orderedItems.append({"item": item, "price": price})
+    if not orderedItems:
+        print("no items entered. Exiting.")
+        return
     #Get tax% and tip%
 
 
